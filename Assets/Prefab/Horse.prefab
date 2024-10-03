@@ -458,6 +458,8 @@ GameObject:
   - component: {fileID: 3715410964760183659}
   - component: {fileID: 8408204002802581489}
   - component: {fileID: 7608301073228917005}
+  - component: {fileID: 534523930522360903}
+  - component: {fileID: 606179297378573632}
   m_Layer: 0
   m_Name: Horse
   m_TagString: Untagged
@@ -534,6 +536,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBound: 30
   lowerBound: -10
+--- !u!65 &534523930522360903
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553314931329567085}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.76169, y: 37.543602, z: 43.680225}
+  m_Center: {x: -0.17378509, y: 18.271793, z: 4.4598365}
+--- !u!114 &606179297378573632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553314931329567085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0e24f58946f8624caedfd41c5a54eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1887780721814164485
 GameObject:
   m_ObjectHideFlags: 0
