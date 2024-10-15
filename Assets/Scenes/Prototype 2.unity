@@ -582,12 +582,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1171974320}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6e34cbb730c5324d9df87fec686b9f2, type: 3}
+  m_Script: {fileID: 11500000, guid: 38e917c52987daa41af6a0305d9813c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalInput: 0
-  speed: 10
-  xRange: 10
   projectilePrefab: {fileID: 4758628309202829655, guid: 6b784094c3464104ea459d5539b51530, type: 3}
 --- !u!850595691 &1406032603
 LightingSettings:
